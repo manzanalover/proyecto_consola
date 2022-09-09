@@ -2,17 +2,17 @@ body {
     background-color: white
 }
 
-.caja {
-    height: 900px;
-    width: 800px;
-    background-color: beige;
+.caja1 {
+    height: 260px;
+    width: 260px;
+    background-color: white;
 }
 
 .odin {
-    height: 250px;
+    height: 260px;
     width: 230px;
     background-color: darkgrey;
-    border: 2px black solid;
+    border: 2px darkgray solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,21 @@ body {
     width: 180px;
     height: 170px;
     background-color: white;
+}
+
+.caja2{
+    width: 260px;
+    height: 26px;
+    background-color: white;
+}
+
+.center{
+    width: 230px;
+    height: 20px;
+    background-color: darkgray;
+    border: 2px darkgray solid;
+    display: flex;
+    border-radius: 6px;
 }
 
 
