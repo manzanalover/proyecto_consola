@@ -2,10 +2,20 @@ body {
     background-color: white
 }
 
+.caja {
+    height: 900px;
+    width: 800px;
+    background-color: beige;
+}
+
 .odin {
+    height: 250px;
+    width: 230px;
     background-color: darkgrey;
     border: 2px black solid;
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px 8px 8px 8px;
 }
 
@@ -26,12 +36,19 @@ body {
 }
 
 .pantalla{
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 220px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
 
-    
-
+.display {
+    width: 180px;
+    height: 170px;
+    background-color: white;
 }
 
 
