@@ -64,6 +64,8 @@ body {
     border: 2px darkgray solid;
     display: flex;
     border-radius: 6px;
+    border-top-color: grey;
+    border-bottom-color: grey;
 }
 
 
