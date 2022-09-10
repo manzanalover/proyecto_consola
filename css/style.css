@@ -10,7 +10,7 @@ body {
 
 .odin {
     height: 260px;
-    width: 230px;
+    width: 260px;
     background-color: darkgrey;
     border: 2px darkgray solid;
     display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 .pantalla {
-    width: 200px;
+    width: 230px;
     height: 220px;
     background-color: black;
     display: flex;
@@ -58,44 +58,61 @@ body {
 }
 
 .center {
-    width: 230px;
+    width: 261px;
     height: 20px;
     background-color: darkgray;
-    border: 2px darkgray solid;
+    border: 2px darkgray inset;
     display: flex;
     border-radius: 6px;
-    border-top-color: grey;
     border-bottom-color: grey;
 
 }
 
 .caja3 {
-    width: 235px;
-    height: 210px;
+    width: 264px;
+    height: 260px;
     background-color: darkgray;
 }
 
-.bottomA {
-    width: 120px;
-    height: 140px;
-    background-color: yellow;
-    display: flex;  
-}
-
-.lineas {display: flex;
+.base {
+    width: 135px;
+    height: 165px;
+    background-color: darkgray;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bottomA {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    display: flex;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border-style: inset;
+  
+
+}
+
+.lineas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
 
 }
 
 .padA {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     background-color: darkgray;
 }
 
 .padB {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     background-color: rgb(99, 93, 93);
 }
