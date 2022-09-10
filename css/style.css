@@ -19,6 +19,14 @@ body {
     border-radius: 8px 8px 8px 8px;
 }
 
+.circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: dimgrey;
+    
+}
+
 .top {
     height: 210px;
     width: 280px;
@@ -37,7 +45,7 @@ body {
 
 .pantalla {
     width: 230px;
-    height: 220px;
+    height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -46,8 +54,8 @@ body {
 }
 
 .display {
-    width: 180px;
-    height: 170px;
+    width: 160px;
+    height: 150px;
     background-color: white;
 }
 
@@ -115,4 +123,18 @@ body {
     width: 18px;
     height: 18px;
     background-color: rgb(99, 93, 93);
+}
+
+.base2{
+    width: 255px;
+    height: 90px;
+    background-color: yellow;
+
+}
+
+.base3 {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+      
 }
