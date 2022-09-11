@@ -59,6 +59,12 @@ body {
     background-color: white;
 }
 
+.pic-logo{
+    max-width: 30px;
+    max-height: 10px;
+}
+
+
 .caja2 {
     width: 260px;
     height: 24px;
