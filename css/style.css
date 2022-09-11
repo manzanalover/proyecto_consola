@@ -126,12 +126,57 @@ body {
 }
 
 .base2{
-    width: 255px;
-    height: 90px;
+    width: 264px;
+    height: 95px;
     background-color: yellow;
-
+    
 }
 
+.odin-start-select {width: 230px;
+    height: 85px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.circle-select{
+    height: 50px;
+    width: 50px;
+    background-color:darkgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.select{
+    height: 25px;
+    width: 25px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.circle-start{
+    height: 50px;
+    width: 50px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start{
+    height: 25px;
+    width: 25px;
+    background-color: grey;
+    border-radius: 50%;
+}
 .base3 {
     width: 60px;
     height: 60px;
